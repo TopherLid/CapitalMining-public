@@ -1,0 +1,61 @@
+
+/* CSS for the navbar */
+
+
+
+
+/*
+#video-bg {
+  position:absolute;
+  width: 100%;
+  height: 900px;
+}
+.main-info {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hook-main{
+  border:2px solid whitesmoke;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+
+  padding:25px;
+  background:rgba( 000, 000, 000, 0.5 );
+  color:#dda74f;
+}
+
+
+
+.hook-main h1 {
+  -webkit-text-stroke: 1px #000;
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.hook-main h2 {
+  -webkit-text-stroke: 1px #000;
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+#contenedor-inicio {
+  opacity: 0.9;
+  height: 1000px;
+}
+
+*/
+
+
+.card-effect {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+cursor: pointer;
+}
+
+.card-effect:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

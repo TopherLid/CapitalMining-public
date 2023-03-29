@@ -1,0 +1,18 @@
+15-03-2023: Inicio de proyecto CapitalMining SpA.
+Maquetado inicial de HTML, utilizando Bootstrap5 como framework para desarrollo dentro del sitio.
+
+15-03-2023: 1era reunión 
+Se muestra el maquetado inicial del sitio, se acorda desarrollo de mapa mostrando ubicación de oficina
+y nabvar centrada.
+
+20-03-2023: 2da reunión
+HomePage casi completa, falta colocar imágenes acordes al tamaño de las cards presentadas.
+Cambios listados para la 3ra reunión:
+- Background carrusel/video para inicio de HomePage -check 
+- Nueva dirección: sitio1 manzana i puerto seco parque industrial calama -check 
+- remover felipe sepulveda y amador leaños -check 
+- remover Minería San Gregorio -check 
+
+24-03-2023: 3ra reunión
+- movida - 30-03-2023
+diseño base/tentativo listo, hosteado en github

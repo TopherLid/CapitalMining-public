@@ -18,53 +18,76 @@
 </head>
 
 <body>
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="assets/img/logo-icon.png" class="navbar-logo-icon"
-          alt="Capital Mining Logo" />
-        Capital Mining</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="info.html"><i class="fa-solid fa-users"></i> Qui&eacute;nes somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="proyectos.html"><i class="fa-solid fa-book"></i> Proyectos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="productos.html"><i class="fa-solid fa-box"></i> Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="servicios.html"><i class="fa-solid fa-hand-holding-hand"></i> Servicios</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
 
-  <!-- Header video bg + hooker -->
+  <!-- Header + navbar -->
 
   <header>
-    <div class="container-flex contenedor-main bg-dark">
-      <div class="videito">
-        <video autoplay muted loop plays-inline width="100%">
-          <source src="assets/vid/dronatacama.mp4" type="video/mp4">
-        </video>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="assets/img/logo-icon.png" class="navbar-logo-icon"
+            alt="Capital Mining Logo" />
+          Capital Mining</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="info.html"><i class="fa-solid fa-users"></i> Qui&eacute;nes somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="proyectos.html"><i class="fa-solid fa-book"></i> Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="productos.html"><i class="fa-solid fa-box"></i> Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html"><i class="fa-solid fa-hand-holding-hand"></i> Servicios</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="text-contenedor">
-        <h1 class="text-center pb-3">Capital Mining SpA.</h1>
-        <p class="text-center">Productos, servicios y soluciones mineras a su disposición.</p>
-      </div>
-    </div>
+    </nav>
   </header>
+
+  <!-- contenedor video + hooker -->
+
+  <section id="video-hooker">
+    <div class="container-fluid bg-dark">
+      <div class="video-class ratio ratio-16x9">
+        <video src="assets/vid/dronatacama.mp4" autoplay muted loop plays-inline class="bg-video"></video>
+      </div>
+      <div class="container contenedor-hook">
+        <div class="row">
+          <div class="col">
+            <h1 class="text-center pb-3" style="color:goldenrod">Capital Mining SpA.</h1>
+            <p class="text-center" style="color:goldenrod">Productos, servicios y soluciones mineras a su disposición.</p>
+          </div>
+        </div>
+      </div>
+      <!--
+        <div class="row bg-dark">
+          <div class="col-12">
+            <div class="contenedor-texto-centro d-none d-md-block">
+              <h1 class="text-center pb-3" style="color:goldenrod">Capital Mining SpA.</h1>
+              <p class="text-center" style="color:goldenrod">Productos, servicios y soluciones mineras a su disposición.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row d-block d-md-none bg-dark py-5">
+          <div class="col-md-12" style="color:goldenrod">
+            <h2 class="h1 text-center">Capital Mining SpA.</h2>
+            <p class="text-center">Productos, servicios y soluciones mineras a su disposición.</p>
+          </div>
+        </div>
+      -->
+    </div>
+  </section>
 
   <!-- contenedor certificaciones -->
 

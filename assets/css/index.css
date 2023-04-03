@@ -1,7 +1,40 @@
 
 /* CSS for the navbar */
 
+nav{
+  position:absolute;
+}
 
+.contenedor-main {
+  width: 100%;
+  height: 94vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videito {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.videito video{
+
+}
+
+.text-contenedor{
+  position:absolute;
+  justify-content: center;
+  border:2px solid whitesmoke;
+  border-radius: 20px 20px 20px 20px;
+  -moz-border-radius: 20px 20px 20px 20px;
+  -webkit-border-radius: 20px 20px 20px 20px;
+
+  padding:25px;
+  background:rgba( 000, 000, 000, 0.5 );
+  color:#dda74f;
+}
 
 
 /*
@@ -58,4 +91,9 @@ cursor: pointer;
 .card-effect:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.historia-capmining {
+  color:#fff;
 }
